@@ -1,0 +1,115 @@
+.section03{
+    height: 862px;
+    width: auto;
+}
+.section03-last{
+    margin: 146px 160px 0 265px;
+}
+.trending-text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+
+}
+.section03-plus{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 400px;
+    top: -54px;
+}
+.benefits-cards{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.benefits-card-youga{
+    background-image: url("../assets/png/image 12.png");
+    border-radius: 8px 8px 0 0;
+    width: 261px;
+    height: 233px;
+}
+.benefits-card-food{
+    background-image: url("../assets/png/image 13.png");
+    border-radius: 8px 8px 0 0;
+    width: 261px;
+    height: 233px;
+}
+.benefits-card-temple{
+    background-image: url("../assets/png/image 14.png");
+    border-radius: 8px 8px 0 0;
+    width: 261px;
+    height: 233px;
+}
+.benefits-card-surfing{
+    background-image: url("../assets/png/image 15.png");
+    border-radius: 8px 8px 0 0;
+    width: 261px;
+    height: 233px;
+}
+.section03-text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.section03-circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -110px;
+    top: 26px;
+}
+.section03-circle-two{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: -75px;
+    left: 720px;
+}
+.section03-text-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    width: 261px;
+}
+.section03-text h1{
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 13px;
+}
+.section03-text a{
+    margin-top: 23px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+    text-decoration: none;
+}
