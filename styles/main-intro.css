@@ -1,70 +1,51 @@
-.main{
+.main-intro-main{
+    width: 450px;
+    padding-top: 150px;
+    position: relative;
+}
+.main-intro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 6% 6% 0 12%;
-    height: 542px;
-    align-items: flex-start;
-}
-.intro-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 5.3%;
-}
-.intro-image{
-    width: 19.96px;
-    height: 20px;
-    margin: 10px 0 49px 45px;
-}
-.intro-image3{
-    margin: 3% 0 0 3%;
-    width: 18.04px;
-    height: 18px;
-    transform: rotate(7deg);
+    padding-top: 250px;
+    padding-bottom: 116px;
 
 }
-.intro-title{
-    width: 481px;
-    margin: 0%;
+.main-intro-title{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    line-height: 50px;
-    font-weight: bold;
+    margin-bottom: 30px;
+    color: #202336;
 
 }
-.intro-paragraph{
-    width: 450px;
-    margin-top: 4%;
-    line-height: 35px;
-    font-weight: 300;
-    font-family: 'Mulish', sans-serif;
+.main-intro-text{
     font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
     color: #7D7987;
 
 }
-
-
-.intro-image2 {
-    height: 20.000000292870403px;
-    width: 20.047764118032724px;
-    left: -1003.0228271484375px;
-    top: -712px;
-    border-radius: 0px;
+.main-intro-image{
+    position: relative;
 
 }
 
-
-
-.intro-button{
+.main-intro-button{
+    background-color: #FB8F1D;
+    margin-top: 39px;
+    width: 164px;
+    height: 48px;
+    border-radius: 8px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-right: 8%;
-    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
-.intro-button a{
+.main-intro-button a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,9 +61,4 @@
     font-size: 15px;
     text-decoration: none;
     border-radius: 9px;
-}
-.intro-button img{
-    width: 24.05px;
-    height: 24px;
-    transform: rotate(20.42deg);
 }

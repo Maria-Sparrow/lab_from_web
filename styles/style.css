@@ -1,3 +1,213 @@
-body {
-    background-color: white;
+
+@import "./header.css";
+@import "./main-intro.css";
+@import "./section02.css";
+@import "./footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.main-intro-button{
+    background-color: #FB8F1D;
+    margin-top: 39px;
+    width: 164px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button-first {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.main-intro-button:hover{
+    background: linear-gradient(#f5ae00,#f59500) #f5ae00;
+}
+.main-intro-button:active{
+    background: linear-gradient(#f59500,#f5ae00) #f59500;
+}
+
+button:hover{
+    box-shadow: yellowgreen;
+}
+@media screen and (max-width: 768px) {
+    .main-intro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-intro-image{
+        display: none;
+        width: 0;
+    }
+    .section02{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section02-image{
+        display: none;
+        width: 0;
+    }
+    .section03-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .view-all-button{
+        padding-top: 0;
+
+    }
+
+    .section03-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-main{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        padding: 0 50px;
+        background-color:darkcyan;
+        z-index: 2;
+    }
+    .header-logo{
+        position: relative;
+        z-index: 5;
+    }
+    .header-nav a{
+        display: block;
+        position: relative;
+        text-align: left;
+        margin-bottom: 80px;
+    }
+    .header-nav{
+        position: absolute;
+        top: 100px;
+        left: -300px;
+        margin-left: 50px;
+        transition: all .3s;
+    }
+    .header-nav-mine{
+        color: #98C1D9;
+        font-weight: 700;
+    }
+    .header-buttons-log .header-buttons-reg{
+        width: 80px;
+        height: 25px;
+    }
+    .main-intro{
+
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    @keyframes test {
+        0%  {left: 0px;top: 0px;transform: rotate(0deg);width: 40%}
+        25%  {left: 200px;top: 0px;transform: rotate(0deg);width: 45%}
+        50%  {left: 200px;top: 200px;transform: rotate(0deg);width: 50%}
+        75%  {left: 0px;top: 200px;transform: rotate(0deg);width: 45%}
+        100%  {left: 0px;top: 0px;transform: rotate(0deg);width: 40%}
+    }
+    .burger-menu{
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        padding: 0 50px;
+        background-color:darkcyan;
+        z-index: 2;
+        transition: all .3s;
+    }
+    .active{
+        left: 0;
+        transition: all .3s;
+    }
+    active-burger::before {
+        transform: rotate(-45deg);
+        transition: all .3s;
+    }
+    .active-burger:after span {
+        transform: rotate(45deg);
+        transition: all .3s;
+    }
+    .burger-container.active-burger {
+        height: 2px;
+    }
+    .burger-container.active-burger span {
+        transform: scale(0);
+    }
+    burger-container {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .burger-container span {
+        background-color: #98C1D9;
+        position: absolute;
+        width: 7vw;
+        height: 2px;
+        left: 5vw;
+        top: 10px;
+    }
+    .burger-container:before, .burger-container:after {
+        content: '';
+        background-color: #98C1D9;
+        position: absolute;
+        width: 7vw;
+        height: 2px;
+        left: 5vw;
+        top: 30px;
+
+    }
+    .burger-container:before {
+        top: 20px;
+    }
+    .burger-container:after {
+        bottom: 0;
+    }
+
+    .main-intro .first-article{
+        margin-top: 50px;
+        padding: 0;
+    }
+    .star-img .section02-name .section02-role{
+        margin: 0;
+    }
+
+
+    @media screen and (max-width: 1024px) {
+        .container-stories {
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .container {
+            margin: 0 auto;
+        }
+        .container-stories {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .section03-container {
+            max-width: 100%;
+            justify-content: space-around;
+        }
+    }}
