@@ -108,3 +108,16 @@
     position: relative;
 }
 */
+@media screen and (max-width: 320px){
+    .header-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        top: 10vh;
+    }
+    .header-buttons {
+        outline: none;
+        overflow: hidden;
+    }
+
+}

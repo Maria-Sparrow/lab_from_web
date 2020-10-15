@@ -115,13 +115,7 @@ button:hover{
         margin: 0 auto;
         max-width: 768px;
     }
-    @keyframes test {
-        0%  {left: 0px;top: 0px;transform: rotate(0deg);width: 40%}
-        25%  {left: 200px;top: 0px;transform: rotate(0deg);width: 45%}
-        50%  {left: 200px;top: 200px;transform: rotate(0deg);width: 50%}
-        75%  {left: 0px;top: 200px;transform: rotate(0deg);width: 45%}
-        100%  {left: 0px;top: 0px;transform: rotate(0deg);width: 40%}
-    }
+
     .burger-menu{
         position: fixed;
         top: 0;
@@ -190,7 +184,10 @@ button:hover{
     .star-img .section02-name .section02-role{
         margin: 0;
     }
+    .star-img{
+        display: none;
 
+    }
 
     @media screen and (max-width: 1024px) {
         .container-stories {

@@ -37,3 +37,9 @@ footer {
     height: 0.6px;
     background: #C4C4C4;
 }
+@media screen and (max-width: 320px) {
+.footer-text{
+
+}
+
+}

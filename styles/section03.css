@@ -35,7 +35,7 @@
 
 .section03-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -56,11 +56,11 @@
     justify-content: space-around;
 }
 
-}
+
 
 .section03-story-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: white;
     bottom: 0;
     width: 283px;
@@ -203,4 +203,6 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
 }
+

@@ -31,8 +31,23 @@
 }
 .main-intro-image{
     position: relative;
+    -webkit-animation: slide-bck-right 2s linear 2s 4 alternate ;
+    animation: slide-bck-right 2s linear 2s 4 alternate ;
+    animation-name: test_two;
 
 }
+
+@keyframes test_two {
+    0% {
+        -webkit-transform: translateZ(0) translateX(0);
+        transform: translateZ(0) translateX(0);
+    }
+    100% {
+        -webkit-transform: translateZ(-400px) translateX(200px);
+        transform: translateZ(-400px) translateX(200px);
+    }
+}
+
 
 .main-intro-button{
     background-color: #FB8F1D;
@@ -61,4 +76,41 @@
     font-size: 15px;
     text-decoration: none;
     border-radius: 9px;
+}
+@media screen and (max-width: 320px){
+    .main-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        bottom: 0;
+        width: 283px;
+        margin-top: 15px;
+}
+    .main-intro-title{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #202336;
+
+    }
+    .main-intro-text{
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-family: 'Mulish', sans-serif;
+        color: #7D7987;
+    }
+    .main-intro-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        bottom: 0;
+        width: 283px;
+        margin-top: 15px;
+
+    }
+
 }
