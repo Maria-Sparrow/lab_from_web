@@ -1,0 +1,71 @@
+header{
+    height: 5rem;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: larger;
+    padding: 0.4rem 0 0.5rem 1rem;
+    color: #fff;
+
+}
+nav{
+    padding-right: 17%;
+}
+.nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2rem;
+    color: black;
+    font-size: 18px;
+}
+.nav-section li:nth-child(1){
+    color: #7f7f7f;
+    margin-right: 5rem;
+}
+
+.nav-section li:nth-child(2){
+    margin-right: 5rem;
+}
+.nav-section a:hover{
+    background-color:#7f7f7f;
+}
+
+.nav-section a:active{
+    background-color: #db215f;
+}
+
+.medicine-find{
+    display: flex;
+    flex-direction: row;
+    padding-right: 12%;
+}
+
+.find-medicine{
+    width: -50%;
+}
+
+.section-clear{
+    border-color: #ff1717;
+    color:#ff1717 ;
+    margin-left: 10%;
+    padding: 3%;
+    border-radius: 10%;
+    padding: 2%;
+    width: 6rem;
+    font-size: 16px;
+}
+
+.section-clear:hover{
+   background-color: #d9534f;
+}
+.medicine-item{
+    height: 2000px;
+}
+
+
+
+
