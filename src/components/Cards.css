@@ -1,7 +1,7 @@
-.cards {
+.list {
     padding: 4rem;
     background: #fff;
-  }
+}
   
   h1 {
     text-align: center;
@@ -9,34 +9,46 @@
   
   .cards__container {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
   }
-  
-  .cards__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
-  }
-  
-  .cards__items {
+
+  .item_cards {
+    height: 100%;
+    width: 70%;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-  }
+    justify-content: space-between;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.items {
+    display: flex;
+    position: relative;
+    left: 0rem;
+    width: 80%;
+    justify-content: space-between;
+    height: 100%;
+}
   
   .cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    flex-direction: row;
+    margin-bottom: 24px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 50px 0 45px;
   }
   
   .cards__item__link {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -54,11 +66,11 @@
   }
   .cards__item__pic-wrap3 {
     text-align: center;
-    bottom: 2rem;
+    bottom: 1rem;
     width: 100%;
     overflow: hidden;
     color: black;
-    margin-bottom: 0.5rem;
+    font-size: 50px;
   }
   
   .fade-img {
@@ -87,9 +99,9 @@
     bottom: 0;
     left: 0;
     display: block;
-    width: 100%;
+    width: 110%;
     max-width: 100%;
-    height: 100%;
+    height: 110%;
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
@@ -100,7 +112,7 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 30px 10px;
   }
   
   .cards__item__text {
@@ -112,6 +124,9 @@
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
+    }
+    .cards__item {
+      margin-bottom: 2rem;
     }
   }
   

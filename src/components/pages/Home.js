@@ -1,15 +1,20 @@
 import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import '../../App.css'
-import Cards from '../Cards';
-import Footer from '../Footer';
-import HeroSection from '../HeroSection'
+import Cards from '../elements/Cards';
+import HeroSection from '../section/HeroSection'
+import Footer from '../footer/Footer'
 
 function Home () {
     return(
       <>
       <HeroSection />
       <Cards />
-      <Footer />
+      <Router>
+      <Switch>  
+        <Route path='/' exact component={Footer} />     
+      </Switch>
+    </Router>
       </>  
     );
 }

@@ -18,7 +18,6 @@
 }
 
 .list {
-  background-image: url('/src/nav.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +26,6 @@
 }
 
 .cart {
-  background-image: url('/src/nav.png');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;

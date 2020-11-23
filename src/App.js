@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/header/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import List from './components/pages/List';
 import Cart from './components/pages/Cart';
-
-
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/list' exact component={List} />
-        <Route path='/cart' exact component={Cart} />      
+        <Route path='/cart' exact component={Cart} />           
       </Switch>
     </Router>
     </>
