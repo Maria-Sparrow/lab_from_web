@@ -6,8 +6,8 @@
 }
 
 .card{
-    min-width: 300px;
-    min-height: 400px;
+    min-width: 320px;
+    min-height: 440px;
     border: 1px solid #eeeeee;
     overflow: hidden;
     padding: 10px;
@@ -68,4 +68,8 @@ input {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 15px 0;
+}
+.show_more{
+    width: 90px;
+    height: 30px; 
 }

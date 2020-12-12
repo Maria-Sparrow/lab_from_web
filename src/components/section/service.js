@@ -2,8 +2,13 @@ import firebase from "../../firebase";
 
 const db = firebase.ref("/chemicals");
 
+const dbShow = firebase.ref("/chemicalTest");
+
 const getAll = () => {
     return db;
+};
+const getAllShow = () => {
+    return dbShow;
 };
 
 const create = (data) => {
@@ -23,6 +28,7 @@ const removeAll = () => {
 };
 
 export default {
+    getAllShow,
     getAll,
     create,
     update,

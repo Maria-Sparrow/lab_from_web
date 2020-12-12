@@ -1,0 +1,36 @@
+.det{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.det img{
+    max-width: 350px;
+    min-width: 220px;
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #eeeeee;
+}
+.det.second_box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+.second_box .second_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.second_box .second_row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.second_box .second_row span{
+    color:violet;
+}
+.second_box p{
+    line-height: 1.5;
+    margin: 15px 0;
+}
